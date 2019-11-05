@@ -1,1 +1,0 @@
-# sandyrahman.github.io first
