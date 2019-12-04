@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Langkah Pertama
 1. bla bla
