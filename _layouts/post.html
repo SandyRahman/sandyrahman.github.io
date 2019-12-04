@@ -1,59 +1,49 @@
 ---
-layout: default
-css: ["post.css"]
-js: ["post.js"]
+layout: compress
 ---
-<div id="post-info">
-  <h3>{{page.title}}</h3>
-  <ul class="collapsible hoverable" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header">
-        <span>
-          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Date">date_range</i>
-          {{page.date | date: "%d/%m/%Y %H:%M"}}
-          <i id="indicate" class="right material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Show extra info">info</i>
-        </span>
-      </div>
-      <div class="collapsible-body">
-        <span>
-          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Categories">sort</i>
-          {% for cat in page.categories %}
-          {% capture test %}{{cat | slice: 0}}{% endcapture %}
-          {% capture testup %}{{cat | slice: 0 | upcase}}{% endcapture %}
-          <a href="{{site.baseurl}}/categories#{{cat | slugify}}{% if test == testup %}_cap{% endif %}" target="_blank"><div class="chip">{{cat}}</div></a>
-          {% endfor %}
-        </span>
-        <span>
-          <i class="material-icons tooltipped" data-position="left" data-delay="30" data-tooltip="Tags">label</i>
-          {% for tag in page.tags %}
-          {% capture test %}{{tag | slice: 0}}{% endcapture %}
-          {% capture testup %}{{tag | slice: 0 | upcase}}{% endcapture %}
-          <a href="{{site.baseurl}}/tags#{{tag | slugify}}{% if test == testup %}_cap{% endif %}" target="_blank"><div class="chip">{{tag}}</div></a>
-          {% endfor %}
-        </span>
-      </div>
-    </li>
-  </ul>
-</div>
-<div class="divider"></div>
-<div class="row">
-  <div class="col s12">
-    {{ content }}
-  </div>
-</div>
-{% if site.disqus_shortname and page.comments %}
-<div id="disqus_thread"></div>
-<script>
-  var disqus_config = function () {
-    this.page.url = "{{site.url}}{{site.baseurl}}{{page.url}}";
-    this.page.identifier = "{{page.id}}";
-  };
-  (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//{{site.disqus_shortname}}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+                    <h1>{{ page.title }}</h1>
+                    <h4>{{ page.date | date_to_string }}</h4>
+                    {% if site.reading_time %}
+                    <p class="reading-time">
+                      <i class="fa fa-clock-o"></i>
+                      {% include read-time.html %}
+                    </p><!-- /.entry-reading-time -->
+                    {% endif %}
+                    {% if page.project %}
+                    <a class="btn zoombtn" href="{{site.url}}/projects/">
+                    {% else %}
+                    <a class="btn zoombtn" href="{{site.url}}/posts/">
+                    {% endif %}
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                </div>
+                {{ content }}
+                <div class="entry-meta">
+                {% include meta.html %}
+                </div>
+            </div>
+        </div>
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+    </header>
+    {% include scripts.html %}
+    {% if site.mathjax == true %}
+    <!-- MathJax -->
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+</body>
+</html>
