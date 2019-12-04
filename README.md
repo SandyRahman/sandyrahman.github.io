@@ -1,113 +1,68 @@
-# plainwhite
+# MatJek
 
-Simplistic jekyll portfolio-style theme for writers.
+A responsive [Material](https://material.io/) theme based on [Materialize.css](http://materializecss.com/) for jekyll sites.
 
-**Demo**: [thelehhman.com](https://thelehhman.com)
+## Features
 
-![plainwhite theme preview](/screenshot.png)
+* Google Analytics
+* Disqus
+* [GitHub project page](https://shawnteoh.github.io/matjek/projects/)
+* [Tags](https://shawnteoh.github.io/matjek/tags/) and [Categories](https://shawnteoh.github.io/matjek/categories/)
+* Modular CSS and JS includes ([example](https://github.com/ShawnTeoh/matjek/blob/gh-pages/projects.md/))
+* [Fancy "About" page](https://shawnteoh.github.io/matjek/about)
 
-
-## Installation on Github Pages
-
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/plainwhite-jekyll
-```
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Clone or fork this repo and edit `_config.yml` as needed.
 
-```ruby
-gem "plainwhite"
-```
+## Configuration
 
-And add this line to your Jekyll site's `_config.yml`:
+Most of the configurations can be found in `_config.yml`. The configurations listed below are specific to MatJek. If you are not using `google_tracking_id` or `disqus_shortname`, just remove them completely.
 
 ```yaml
-theme: plainwhite
+github_profile: "github_profile_url"
+user: "your_name" # Appears at sidebar
+user_email: "your_email" # Appears at sidebar, remove whole variable if unwanted
+contact_url: "google_form_link"
+google_tracking_id: "google_analytics_ID"
+disqus_shortname: "shortname_given_by_Disqus"
 ```
 
-And then execute:
+Edit the images in `assets/res` to suit your liking, but try to stick to the original resolutions.
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install plainwhite
-
-## Usage
-
-The "plainwhite" key in _config.yml is used to customize the theme data.
-```yaml
-plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Updating Placeholder Image**
-
-The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website.
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
-```yaml
-plainwhite:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
-```yaml
-plainwhite:
-  analytics_id: '< YOUR ID >'
-```
-
-**Sitemap**
-
-It can be toggled by the following line to under plainwhite in  `_config.yml`
+If you would like to enable comments in a post (disqus_shortname must be provided), add this line to the front matter of the post.
 
 ```yaml
-plainwhite:
-  sitemap: true
+comments: 1
 ```
 
-**Excerpts**
+Add tags and categories to your posts in the front matter as well. Multiple tags/categories can be assigned but need to be separated by spaces.
 
-Excerpts can be enabled by adding the following line to your `_config.yml`
 ```yaml
-show_excerpts: true
+categories: default default2
+tags: test test2
 ```
-**Layouts**
-
-- Home
-- Page
-- Post
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcomed on GitHub at https://github.com/shawnteoh/matjek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+To set up your environment to develop this theme, clone/fork the repo and run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `plainwhite.gemspec` accordingly.
+To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000/matjek/`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-## More themes
+## Libraries
+* [Materialize.css](http://materializecss.com/)
+* [GeoPattern](https://github.com/btmills/geopattern/)
+* [Animate.css](https://daneden.github.io/animate.css/)
+* [Morphtext](http://morphext.fyianlai.com/)
 
-- [Texture](https://github.com/thelehhman/texture)
+## References
+* https://github.com/DONGChuan/Yummy-Jekyll/
+* https://github.com/codinfox/codinfox-lanyon/
