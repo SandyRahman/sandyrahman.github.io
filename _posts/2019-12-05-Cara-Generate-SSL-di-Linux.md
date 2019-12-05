@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 layout: post
-date: 2019-12-05T00:00:00.000Z
+date: {}
 excerpt: Generate ssl https
 tag:
   - Linux
