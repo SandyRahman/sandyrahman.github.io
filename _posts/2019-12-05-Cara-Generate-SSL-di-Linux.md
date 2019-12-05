@@ -1,6 +1,11 @@
 ---
-published: false
+published: true
+layout: post
+excerpt: Generate SSL HTTPS
+tag: Linux
+comments: true
+tittle: Cara Generate SSL di Linux
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+```sh
+$ openssl s_client -showcerts -servername hostname -connect hostname:port
+```
