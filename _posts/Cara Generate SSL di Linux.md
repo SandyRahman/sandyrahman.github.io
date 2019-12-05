@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 layout: post
-date: 2019-11-05T00:00:00.000Z
+date: {}
 excerpt: Generate SSL HTTPS
 tag: Linux
 comments: true
