@@ -11,8 +11,8 @@ raw_title: true
 $ openssl s_client -showcerts -servername hostname -connect hostname:port
 ```
 *Referensi bisa klik link dibawah ini :*
-</figure>
-<figcaption><a href="https://www.freecodecamp.org/news/openssl-command-cheatsheet-b441be1e8c4a/" title="openssl">openssl</a></figcaption>
-</figure>
-  
-  
+<figcaption>
+  <a href="https://www.freecodecamp.org/news/openssl-command-cheatsheet-b441be1e8c4a/" 				
+     title="openssl">openssl</a>
+</figcaption>
+
