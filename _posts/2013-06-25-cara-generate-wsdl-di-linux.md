@@ -4,7 +4,7 @@ title: Cara Generate WSDL di Linux
 date: {}
 excerpt: Generate WSDL
 tag: Linux
-comments: true
+comments: false
 published: true
 ---
 ```sh
