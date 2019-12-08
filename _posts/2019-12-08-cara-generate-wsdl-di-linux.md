@@ -4,7 +4,7 @@ layout: post
 excerpt: Generate WSDL
 tag: Linux
 comments: false
-title: Cara Generate SSL di Linux
+title: Cara Generate WSDL di Linux
 raw_title: true
 ---
 ```sh
