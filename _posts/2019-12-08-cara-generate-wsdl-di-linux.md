@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Generate WSDL
 tag: Linux
