@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Push curl menggunakan command di linux
 tag: Github
