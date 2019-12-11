@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Generate SSL dengan command di linux
 tag: Github
