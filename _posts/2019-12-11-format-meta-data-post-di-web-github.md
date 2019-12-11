@@ -6,7 +6,10 @@ tag: Github
 title: Format Metadata Post di Web Github.io
 raw_title: true
 ---
-Berikut dibawah ini format metadata untuk posting di webpages.github.io :
+Posting blog di akun.github.io bisa melalui web <a href="https://www.freecodecamp.org/news/openssl-command-cheatsheet-b441be1e8c4a/" 				
+     title="openssl">prose.io</a>
+
+Berikut dibawah ini format metadata untuk posting di *prose.io* :
 >	layout: Nama layout 
 	excerpt: Nama sub subject 
 	tag: Nama tag 
