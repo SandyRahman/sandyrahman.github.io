@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Listen Port/hostname dalam satu server
 tag: Linux
