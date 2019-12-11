@@ -2,7 +2,7 @@
 published: true
 layout: post
 excerpt: Generate SSL dengan command di linux
-tag: Github
+tag: Linux
 title: Cara Generate SSL di Linux
 raw_title: true
 ---
