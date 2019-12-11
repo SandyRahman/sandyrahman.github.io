@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: Format Metadata di Github.io
+excerpt: Format metadata di github.io
 tag: Github
 title: Format Metadata Post di Web Github.io
 raw_title: true
