@@ -15,7 +15,7 @@ Berikut dibawah ini format metadata untuk posting di webpages.github.io :
 
 Sample Format :
 >	layout: post
->	excerpt: Format Meta Data di Github.io 
+>	excerpt: Format Meta Data di Github.io
 >	tag: Github
->   title: Format Meta Data Post di Web Github.io. 
+>   title: Format Meta Data Post di Web Github.io
 >	raw_title: true
