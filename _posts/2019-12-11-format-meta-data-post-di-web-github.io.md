@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Berikut dibawah ini format metadata untuk posting di webpages.github.io :
 >	layout: Nama layout 
