@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Format Metadata di Github.io
 tag: Github
