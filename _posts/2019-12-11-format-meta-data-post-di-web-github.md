@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-excerpt: Format metadata di github.io
+excerpt: Format metadata di prose.io
 tag: Github
-title: Format Metadata Post di Web Github.io
+title: Format Metadata Post di Web Prose.io
 raw_title: true
 ---
 Posting blog di akun.github.io bisa melalui web <a href="https://www.freecodecamp.org/news/openssl-command-cheatsheet-b441be1e8c4a/" 				
