@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: telnet dengan command di linux
+excerpt: telnet menggunakan command di linux
 tag: Github
 title: Cara Telnet di Linux
 raw_title: true
