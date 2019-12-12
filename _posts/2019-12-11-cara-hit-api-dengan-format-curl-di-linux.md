@@ -2,7 +2,7 @@
 published: true
 layout: post
 excerpt: Push curl menggunakan command di linux
-tag: Github
+tag: Linux
 title: Cara Hit API Dengan Format Curl di Linux
 raw_title: true
 ---
