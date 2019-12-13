@@ -10,12 +10,12 @@ raw_title: true
 
 Berikut cara menggunakannya :
 
-Jika Port :
+* Jika Port
 ```sh
 $ telnet 10.1.181.36 2532
 ```
 
-Jika Hostname :
+* Jika Hostname
 ```sh
 $ telnet appapisit01.dev.corp.bank.co.id 19502
 ```
