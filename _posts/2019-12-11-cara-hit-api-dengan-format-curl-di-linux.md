@@ -7,8 +7,7 @@ title: Cara Testing API Dengan Format Curl di Linux
 raw_title: true
 ---
 **Curl** adalah sebuah program dan library untuk mengirim dan mengambil data melalui URL.
-**Curl** adalah sebuah program.
-*Aritnya curl adalah sebuah program atau tools yang digunakan pada command line (CMD).*
+Aritnya curl adalah sebuah program atau tools yang digunakan pada command line (CMD).
 
 Berikut cara menggunakannya :
 
