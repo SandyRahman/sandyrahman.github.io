@@ -17,8 +17,8 @@ Berikut dibawah ini format metadata untuk posting di *prose.io* :
 	raw_title: Boolean 
 
 Sample Format :
->	layout: post 
-	excerpt: Format Metadata di Github.io 
-	tag: Github 
-	title: Format Metadata Post di Web Github.io 
+>	layout: post
+	excerpt: Format Metadata di Github.io
+	tag: Github
+	title: Format Metadata Post di Web Github.io
 	raw_title: true
