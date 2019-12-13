@@ -10,4 +10,11 @@ published: true
     
 <center><b>Learning or not knowing at all</b></center>
 
-<center>![Skuy.jpg]({{site.baseurl}}/about/Skuy.jpg)</center>
+<center>![Skuy.jpg]({{site.baseurl}}/assets/img/Skuy.jpg)
+</center>
+
+<div class="featured">
+<a href="{{ page.url }}">
+<img src="{{site.url}}/assets/img/Skuy.jpg/>
+</a>
+</div>
