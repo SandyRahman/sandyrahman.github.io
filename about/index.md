@@ -10,4 +10,4 @@ published: true
     
 <center><b>Learning or not knowing at all</b></center>
 
-<center> ![](/assets/img/Skuy.jpg)</center>
+<center> ![Alt Text](/assets/img/Skuy.jpg)</center>
