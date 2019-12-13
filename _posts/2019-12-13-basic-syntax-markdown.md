@@ -2,7 +2,7 @@
 published: false
 layout: post
 excerpt: Syntax markdown
-tag: Github
+tag: Markdown
 title: Basic Syntax Markdown
 raw_title: true
 ---
