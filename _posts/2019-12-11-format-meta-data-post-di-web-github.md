@@ -1,12 +1,12 @@
 ---
 published: true
 layout: post
-excerpt: Format metadata di prose.io
+excerpt: Posting blog di account.github.io dan cara setting format metadata di prose.io
 tag: Github
 title: Format Metadata di Web Prose.io
 raw_title: true
 ---
-Posting blog di akun.github.io bisa melalui web <a href="https://prose.io/" 				
+Posting blog di account.github.io bisa melalui web <a href="https://prose.io/" 				
      title="openssl">prose.io</a>
 
 Berikut dibawah ini format metadata untuk posting di *prose.io* :
