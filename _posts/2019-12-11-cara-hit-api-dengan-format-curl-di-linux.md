@@ -12,6 +12,8 @@ raw_title: true
 
 *Aritnya curl adalah sebuah program atau tools yang digunakan pada command line (CMD).*
 
+Berikut cara menggunakannya :
+
 ```sh
 $ curl -v -k 'https://10.1.181.36:2532'
 ```
