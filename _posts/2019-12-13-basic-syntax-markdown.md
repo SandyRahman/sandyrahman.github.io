@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Syntax markdown
 tag: Markdown
@@ -10,6 +10,4 @@ raw_title: true
 
 Saat ini sudah banyak web-web besar yang menggunakan Markdown seperti **GitHub**, **reddit**, **stackoverflow** dan **SourceForge**.
 
-Referensi syntax nya bisa klik disamping ini: markdown
-
-*Referensi bisa klik link disamping ini :* <a href="https://www.markdownguide.org/basic-syntax/#images-1" title="openssl">Syntax Markdown</a>
+*Referensi syntax nya bisa klik disamping ini :* <a href="https://www.markdownguide.org/basic-syntax/#images-1" title="openssl">Syntax Markdown</a>
