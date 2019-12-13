@@ -17,7 +17,6 @@ Berikut cara menggunakan command netstat :
 ```sh
 $ netstat -tlp | grep 9042
 ```
-
 * Jika Hostname
 ```sh
 $ netstat -tlp | grep APPAPISIT01
