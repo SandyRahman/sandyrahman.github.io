@@ -3,7 +3,7 @@ published: true
 layout: post
 excerpt: Format metadata di prose.io
 tag: Github
-title: Format Metadata Post di Web Prose.io
+title: Format Metadata di Web Prose.io
 raw_title: true
 ---
 Posting blog di akun.github.io bisa melalui web <a href="https://prose.io/" 				
