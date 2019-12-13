@@ -12,7 +12,7 @@ Netstat bisa digunakan untuk melacak sumber paket yang didapat. Netstat juga bis
 
 Berikut cara menggunakan command netstat :
 
-1. Melihat koneksi ip dan port dalam 1 server
+1. Melihat koneksi ip dan port dalam satu server.
 * Jika Port
 ```sh
 $ netstat -tlp | grep 9042
@@ -20,4 +20,24 @@ $ netstat -tlp | grep 9042
 * Jika Hostname
 ```sh
 $ netstat -tlp | grep APPAPISIT01
+```
+
+2. Melihat Domain dan layanan yang sedang diakses.
+```sh
+$ netstat
+```
+
+3. Melihat IP dan Port yang sedang diakses.
+```sh
+$ netstat -n
+```
+
+4. Melihat nama program /aplikasi yang mengakses jaringan.
+```sh
+$ netstat -b
+```
+
+5. Melihat statistik jaringan.
+```sh
+$ netstat -s
 ```
