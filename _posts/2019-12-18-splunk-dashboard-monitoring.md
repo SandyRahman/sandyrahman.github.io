@@ -19,7 +19,7 @@ Beberapa referensi splunk bisa dilihat dibawah ini :
 Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
 
 *Deskripsi : *
->	*		--> adalah sama dengan semua(all).
+>	*	--> adalah sama dengan semua(all).
 	output	--> adalah menyederhakan penamaan field (penamaannya bisa bebas)
 	path	--> adalah penamaan field didalam index (penamaannya fix)
 	_time	--> adalah sebuah field waktu di splunk.
