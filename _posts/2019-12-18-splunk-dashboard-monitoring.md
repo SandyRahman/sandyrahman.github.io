@@ -18,12 +18,6 @@ Beberapa referensi splunk bisa dilihat dibawah ini :
 
 Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
 
-*Deskripsi :*
->	*	--> adalah sama dengan semua(all).
-	output	--> adalah menyederhanakan penamaan field (penamaannya bisa bebas)
-	path	--> adalah penamaan field didalam index (penamaannya fix)
-	_time	--> adalah sebuah field waktu di splunk.
-
 | Syntax | Deskripsi |
 | :---: | :--- |
 | spath | commends untuk mengambil sebuah data, berdasarkan nama field yang ada di dalam index dan data outpunya bisa kita tampilkan di sebuah table. |
