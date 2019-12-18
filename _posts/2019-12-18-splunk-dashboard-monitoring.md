@@ -26,7 +26,7 @@ Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
 
 ```sh
 index=apigateway
-host="appapiprd0*.corp.bankbtpn.co.id" OR  host="appapidrc0*.corp.bankbtpn.co.id"
+host="appapiprd0*.corp.company.co.id" OR  host="appapidrc0*.corp.company.co.id"
 | spath output=path path=legs{0}.uri 
 | spath output=serviceName path=legs{0}.serviceName 
 | spath output=method path=legs{0}.method 
