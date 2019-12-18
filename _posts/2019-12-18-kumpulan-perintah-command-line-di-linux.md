@@ -6,7 +6,7 @@ tag: Linux
 title: Kumpulan Perintah Command Line di Linux
 raw_title: true
 ---
-Perintah manajemen file secara umum terbagi menjadi 2 yaitu manajemen direktori dan manajemen file.
+Perintah dasar di linux.
 
 Berikut dibawah ini :
 
