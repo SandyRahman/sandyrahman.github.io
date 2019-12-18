@@ -15,8 +15,8 @@ Platform monitoring selain **Splunk** yaitu **Kibana**, **Grafana**, dan lainnya
 Beberapa referensi splunk bisa dilihat dibawah ini :
 1. <a href="https://www.tutorialspoint.com/splunk/index.htm" 				
      title="tutorialsplunk">Tutorial Splunk</a>
-2. <a href="https://www.tutorialspoint.com/splunk/index.htm" 				
-     title="tutorialsplunk">Tutorial Splunk</a>
+2. <a href="https://docs.splunk.com/Documentation/Splunk/8.0.0/SearchReference/Abstract" 				
+     title="spl">SPL</a>
 
 Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
 >	spath	--> commends untuk mengambil sebuah data, berdasarkan nama field yang ada di dalam path dan data outpunya bisa kita tampilkan di sebuah table.
