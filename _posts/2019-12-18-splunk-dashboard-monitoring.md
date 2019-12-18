@@ -13,15 +13,16 @@ Platform monitoring selain **Splunk** yaitu **Kibana**, **Grafana**, dan lainnya
 **Splunk Search Processing Language (SPL)** adalah sebuah query yang berisi banyak perintah untuk menampilkan atau memfilter kumpulan data log dari server secara spesifik agar bisa di lakukan monitoring dan analisis.
 
 Beberapa referensi splunk bisa dilihat dibawah ini :
-
+1. <a href="https://www.tutorialspoint.com/splunk/index.htm" 				
+     title="tutorialsplunk">Tutorial Splunk</a>
 
 Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
 
 *Deskripsi : *
-> *			-> sama dengan semua(all).
-> output 	-> menyederhakan penamaan field (penamaannya bisa bebas)
-> path		-> penamaan field didalam index (penamaannya fix)
-> _time		-> sebuah field waktu di splunk.
+> *	adalah sama dengan semua(all).
+> output adalah menyederhakan penamaan field (penamaannya bisa bebas)
+> path adalah penamaan field didalam index (penamaannya fix)
+> _time	adalah sebuah field waktu di splunk.
 
 
 1. **spath** commends untuk mengambil sebuah data, berdasarkan nama field yang ada di dalam index dan data outpunya bisa kita tampilkan di sebuah table.
