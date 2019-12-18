@@ -17,10 +17,10 @@ Beberapa referensi splunk bisa dilihat dibawah ini :
      title="tutorialsplunk">Tutorial Splunk</a>
 
 Berikut dibawah ini contoh kumpulan SPL di Splunk yang saya buat :
->	- **spath** commends untuk mengambil sebuah data, berdasarkan nama field yang ada di dalam index dan data outpunya bisa kita tampilkan di sebuah table.
-	- **search** commends untuk mencari sebuah data.
-	- **rename** commends untuk mengubah sebuah field.
-	- **table** commends untuk membuat sebuah kolom didalam table.
+>	**spath** commends untuk mengambil sebuah data, berdasarkan nama field yang ada di dalam index dan data outpunya bisa kita tampilkan di sebuah table.
+	**search** commends untuk mencari sebuah data.
+	**rename** commends untuk mengubah sebuah field.
+	**table** commends untuk membuat sebuah kolom didalam table.
 
 ```sh
 index=apigateway
