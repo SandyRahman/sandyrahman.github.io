@@ -17,5 +17,5 @@ $ telnet 10.1.181.36 2532
 
 * Jika Hostname
 ```sh
-$ telnet appapisit01.dev.corp.bank.co.id 19502
+$ telnet appapisit01.dev.corp.company.co.id 19502
 ```
