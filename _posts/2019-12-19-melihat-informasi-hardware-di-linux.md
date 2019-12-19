@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Command line melihat detail informasi hardware di server linux.
 tag: Linux
