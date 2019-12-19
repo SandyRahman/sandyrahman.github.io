@@ -10,7 +10,7 @@ Perintah manajemen file secara umum terbagi menjadi 2 yaitu manajemen direktori 
 
 Berikut dibawah ini :
 
-###Manajemen Direktori
+### Manajemen Direktori
 >	$ mkdir namafolder		-->> Membuat direktori.
 	$ ls				-->> Melihat isi direktori.
 	$ ll				-->> Melihat isi direktori.
@@ -20,7 +20,7 @@ Berikut dibawah ini :
     $ cd /namafolder		-->> Pindah direktori.
     $ rmdir namafolder		-->> Menghapus folder
     
-###Manajemen File
+### Manajemen File
 >	$ touch belajarlinux.txt		-->> Membuat file baru
 	$ rm belajarlinux.txt			-->> Menghapus file
     $ mv namafile namafolderbaru	-->> Merename direktori.
