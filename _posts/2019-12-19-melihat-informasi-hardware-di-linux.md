@@ -12,7 +12,7 @@ Berikut dibawah ini :
 ```sh
 $ cat /proc/cpuinfo |grep "model name"
 ```
-or
+atau
 ```sh
 $ lscpu
 ```
@@ -28,6 +28,7 @@ $ sudo cfdisk
 ```sh
 $ df -h
 ```
+atau
 ```sh
 $ lsblk
 ```
