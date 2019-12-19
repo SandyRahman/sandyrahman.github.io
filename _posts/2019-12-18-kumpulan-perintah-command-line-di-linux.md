@@ -10,22 +10,9 @@ Perintah dasar di linux.
 
 Berikut dibawah ini :
 
-1. Membuat direktori.
-```sh
-$ mkdir namafile
-```
-2. Melihat isi direktori.
-```sh
-$ ls
-```
-```sh
-$ ll
-```
-3. Merename direktori.
-```sh
-$ mv namafile namafilebaru
-```
-4. Memindahkan direkotri.
-```sh
-$ mv namafile /home/sandy/
-```
+>	$ mkdir namafile	--> Membuat direktori.
+	$ ls	--> Melihat isi direktori.
+	$ ll	--> Melihat isi direktori.
+    $ mv namafile namafilebaru	--> Merename direktori.
+    $ mv namafile /home/sandy/	--> Memindahkan direkotri.
+	$ pwd	--> mengecek lokasi direktori saat ini.
