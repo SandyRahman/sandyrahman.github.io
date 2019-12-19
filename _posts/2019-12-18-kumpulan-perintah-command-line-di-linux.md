@@ -21,7 +21,7 @@ Berikut dibawah ini :
     $ rmdir namafolder		-->> Menghapus folder
     
 ### Manajemen File
->	$ touch belajarlinux.txt		-->> Membuat file baru
-	$ rm belajarlinux.txt			-->> Menghapus file
+>	$ touch belajarlinux.txt	-->> Membuat file baru
+	$ rm belajarlinux.txt		-->> Menghapus file
     $ mv namafile namafolderbaru	-->> Merename direktori.
-    $ mv namafile /home/sandy/		-->> Memindahkan direkotri.
+    $ mv namafile /home/sandy/	-->> Memindahkan direkotri.
