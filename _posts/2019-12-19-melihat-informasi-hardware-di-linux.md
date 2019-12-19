@@ -12,6 +12,7 @@ Berikut dibawah ini :
 ```sh
 $ cat /proc/cpuinfo |grep "model name"
 ```
+or
 ```sh
 $ lscpu
 ```
