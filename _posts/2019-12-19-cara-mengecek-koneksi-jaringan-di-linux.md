@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: Fungsi ping di command line
 tag: Linux
