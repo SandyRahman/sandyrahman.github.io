@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: Fungsi ping di command line
+excerpt: Fungsi ping di command line di server linux
 tag: Linux
 title: Cara Mengecek koneksi Jaringan di Linux
 raw_title: true
